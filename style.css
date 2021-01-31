@@ -1,0 +1,235 @@
+/* navbar */
+
+.naav{
+  padding-left: 13%;
+  padding-right: 10%;
+}
+.bg-dark{
+  background-color: #f38181 !important;
+}
+.navbar-brand{
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 25px;
+  color: white !important;
+}
+
+.link{
+  color: white !important;
+  transition: 400ms;
+  padding-right: 32px !important;
+}
+.link:hover{
+  color: #351f39 !important;
+}
+
+/* home section */
+
+.img{
+  height: 270px;
+  width: 420px;
+
+}
+.cf{
+  background-color: #f38181;
+  padding-left: 13%;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.span{
+  text-align: center;
+  padding-left: 100px;
+  color: #b61aae;
+  font-weight: 400;
+}
+.button{
+  background-color:#384259 ;
+  color: #f38181;
+  text-decoration: none;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  margin-top: 50px;
+  transition: 400ms;
+  margin-left: 30px;
+}
+.button:focus{
+  outline: none;
+  border-bottom: 4px solid #b61aae;
+  transition: 100ms;
+}
+.button:hover{
+background-color: #e6a4b4;
+color: #384259;
+}
+h1{
+  font-family: 'Potta One', cursive;
+  font-weight: lighter;
+}
+
+/* my_exp */
+
+.selfi{
+  height: 300px;
+  width: 400px;
+}
+.attach{
+  padding-left: 0;
+}
+h2{
+  position: relative;
+  right: 200px;
+  font-family: 'Carter One', cursive;
+}
+.cf2{
+  background-color: #fce38a;
+  padding-right: 20%;
+  padding-top: 40px;
+}
+.pstyle{
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+/* prcing */
+.card{
+  text-align: center;
+  width: 320px;
+  height: 250px;
+  border-radius: 25px;
+  border-top: 0;
+  background-color: #fce38a;
+
+}
+.card-header{
+  border-radius: 20px !important;
+  background-color: #384259  !important;
+  font-family: 'Carter One', cursive;
+  color: white;
+
+}
+.cf3{
+  padding: 40px 20px 40px 40px;
+  background-color: #f38181;
+
+}
+.btn1{
+  background-color:#384259 ;
+  color: #f38181;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  transition: 400ms;
+}
+.btn1:focus{
+  outline: none;
+  border-bottom: 4px solid #b61aae;
+  transition: 100ms;
+}
+.btn1:hover{
+background-color: #f38181;
+color: #384259;
+}
+/* carousel */
+.img1{
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+}
+#consol{
+background-color: #f6c065;
+text-align: center;
+}
+h5{
+  font-size: 250%;
+  font-family: 'Yusei Magic', sans-serif;
+}
+.carousel-item{
+  padding: 6% 15%;
+}
+/* contact me */
+.btn2{
+  background-color:#384259 ;
+  color: #f38181;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  transition: 400ms;
+  padding-left: 0;
+}
+.btn2:focus{
+  outline: none;
+  border-bottom: 4px solid #b61aae;
+  transition: 100ms;
+}
+.btn2:hover{
+background-color: #e6a4b4;
+color: #384259;
+}
+#contact{
+  padding: 20px 40px;
+  text-align: center;
+  background-color: #f38181;
+}
+.p1{
+  font-family: 'Carter One', cursive;
+  font-size: 45px  ;
+}
+.id{
+  padding-right: 10px;
+}
+.mar{
+  margin-bottom: 50px;
+}
+#footer{
+  text-align: center;
+  background-color: #fce38a;
+  margin-bottom: 0;
+}
+.last{
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .img{
+width: 350px;
+padding-top: 20px;
+  }
+  h2{
+    padding-left: 200px;
+  }
+  .card{
+    margin: 10px auto;
+  }
+  .btn2{
+    margin: 20px auto;
+  }
+}
+@media (max-width:991px) and (min-width:768px) {
+h2{
+  right: 100px;
+  padding: 0;
+}
+.colm{
+position: relative;
+right: -80px;
+}
+.selfi{
+  position: relative;
+  top: 60px;
+}
+.card{
+  margin: 20px auto;
+}
+.btn2{
+  margin: 20px auto;
+}
+.cdhp{
+  margin-left: 170px;
+}
+.img{
+  width: 100%;
+}
+}
